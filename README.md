@@ -3,3 +3,4 @@ This repository contain my personal website launged using Github, S3 bucket, cod
 cloudFrond and AWS Certificate Manager. 
 
 ## fokoue-thomas.com 
+![Alt text](website-view.png)
