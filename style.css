@@ -31,8 +31,6 @@ body {
   color: var(--text-color);
   transition: background-color 300ms ease, color 300ms ease;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 html {
@@ -52,7 +50,9 @@ p {
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  display: inline-block;
+  display: block;
+  width: 100%;
+  text-align: center;
   padding: 0.5rem 1rem;
   background-color: rgba(85, 85, 85, 0.05);
   border-radius: 20px;
@@ -78,11 +78,12 @@ a,
 }
 
 #desktop-nav {
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 70px;
   background-color: var(--nav-bg);
-  
+  width: 100%;
+  padding: 0 4rem;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -236,7 +237,7 @@ body.dark-mode a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 60px;
   height: auto;
   margin: 0 10rem;
@@ -255,8 +256,9 @@ section {
   justify-content: center;
   gap: 5rem;
   height: auto;
-  min-height: 80vh;
+  min-height: 68vh;
   align-items: center;
+  padding-top: 2rem;
 }
 
 .section__pic-container {
@@ -535,7 +537,7 @@ body.dark-mode .project-btn {
   justify-content: center;
   flex-direction: column;
   height: auto;
-  min-height: 70vh;
+  min-height: 60vh;
 }
 
 #contact .section__text__p1 {
@@ -587,7 +589,6 @@ body.dark-mode .contact-info-upper-container {
 footer {
   height: auto;
   margin: 0 1rem;
-  margin-top: auto;
   padding: 2rem 0 1.25rem;
 }
 
@@ -597,7 +598,14 @@ footer nav {
   z-index: auto;
   height: auto;
   background: transparent;
-  display: block;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+footer .nav-links-container {
+  display: flex;
+  justify-content: center;
 }
 
 footer p {
