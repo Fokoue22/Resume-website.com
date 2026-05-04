@@ -79,7 +79,7 @@ nav {
   align-items: center;
   height: 70px;
   background-color: var(--nav-bg);
-  border-bottom: 1px solid var(--border-color);
+  
   position: sticky;
   top: 0;
   z-index: 100;
@@ -239,12 +239,20 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
-  border-bottom: 1px solid var(--border-color);
+  
 }
 
 section:last-of-type {
   border-bottom: none;
 }
+  section {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    height: auto;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
 
 .section-container {
   display: flex;
@@ -259,8 +267,16 @@ section:last-of-type {
   height: auto;
   min-height: 80vh;
   align-items: center;
-  border-bottom: 1px solid var(--border-color);
+  
 }
+  #profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: auto;
+    min-height: 80vh;
+    align-items: center;
+  }
 
 .section__pic-container {
   display: flex;
