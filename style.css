@@ -53,14 +53,14 @@ p {
   display: block;
   width: 100%;
   text-align: center;
-  padding: 0.5rem 1rem;
-  background-color: rgba(85, 85, 85, 0.05);
-  border-radius: 20px;
-  margin-bottom: 1rem;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  margin-bottom: 1.15rem;
 }
 
 body.dark-mode .section__text__p1 {
-  background-color: rgba(200, 200, 200, 0.05);
+  background: none;
 }
 
 /* TRANSITION */
@@ -237,7 +237,7 @@ body.dark-mode a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 48px;
+  padding-top: 60px;
   padding-bottom: 60px;
   height: auto;
   margin: 0 10rem;
@@ -254,7 +254,7 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 6rem;
   height: auto;
   min-height: 60vh;
   align-items: center;
@@ -295,7 +295,7 @@ section {
 
 section > .title {
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 #socials-container {
@@ -376,9 +376,9 @@ section > .title {
 }
 
 .about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .about-details-container {
@@ -418,7 +418,7 @@ body.dark-mode .details-container {
 }
 
 .section-container {
-  gap: 4rem;
+  gap: 5rem;
   height: auto;
 }
 
@@ -447,7 +447,7 @@ body.dark-mode .details-container {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 body.dark-mode .experience-sub-title {
@@ -465,7 +465,7 @@ body.dark-mode .experience-sub-title {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 3rem;
   justify-content: space-around;
 }
 
@@ -512,7 +512,7 @@ body.dark-mode .color-container {
 }
 
 .project-title {
-  margin: 1rem;
+  margin: 1.25rem;
   color: black;
 }
 
@@ -555,8 +555,8 @@ body.dark-mode .project-btn {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
-  margin: 2rem auto;
-  padding: 0.5rem;
+  margin: 2.5rem auto;
+  padding: 0.75rem 1rem;
 }
 
 body.dark-mode .contact-info-upper-container {
