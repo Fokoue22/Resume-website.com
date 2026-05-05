@@ -268,10 +268,9 @@ section {
 }
 
 .about-containers {
-  gap: 1.5rem;
+  gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  flex-wrap: wrap;
 }
 
 .about-details-container {
@@ -295,10 +294,8 @@ section {
 }
 
 .details-container {
-  padding: 1rem;
+  padding: 1.5rem;
   flex: 1;
-  min-width: 250px;
-  max-width: 350px;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -374,14 +371,29 @@ article .icon {
 }
 
 .project-title {
-  margin: 0.75rem 0.5rem;
+  margin: 1rem;
   color: black;
-  font-size: 1.3rem;
 }
 
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+#projects .color-container {
+  padding: 1rem;
+  min-width: 250px;
+  max-width: 350px;
+}
+
+#projects .experience-sub-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+#projects .about-containers {
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 /* CONTACT */
